@@ -1,7 +1,7 @@
 {
-	"name": "DBEBr",
+	"name": "DBEBr - arbsis",
 	"description": "DBEBr Framework for Delphi/Lazaruz",
-	"version": "1.1.7",
+	"version": "1.0.1",
 	"homepage": "www.isaquepinheiro.com.br",
 	"mainsrc": "Source/",
 	"projects": [],
