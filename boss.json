@@ -1,9 +1,0 @@
-{
-	"name": "DBEBr",
-	"description": "DBEBr Framework for Delphi/Lazaruz",
-	"version": "1.1.7",
-	"homepage": "www.isaquepinheiro.com.br",
-	"mainsrc": "Source/",
-	"projects": [],
-	"dependencies": {}
-}
