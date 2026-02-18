@@ -3,8 +3,8 @@ unit dbebr.connection.nexusdb;
 interface
 
 uses
-  DB,
-  Classes,
+  Data.DB,
+  System.Classes,
   nxdb,
   nxllComponent,
   dbebr.connection.base,

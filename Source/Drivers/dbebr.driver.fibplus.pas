@@ -27,10 +27,10 @@ unit dbebr.driver.fibplus;
 interface
 
 uses
-  Classes,
-  DB,
-  Variants,
-  SysUtils,
+  System.Classes,
+  Data.DB,
+  System.Variants,
+  System.SysUtils,
 
   FIBQuery,
   FIBDataSet,

@@ -5,8 +5,8 @@ unit tests.driver.zeos;
 interface
 
 uses
-  DB,
-  Classes, SysUtils, fpcunit, testutils, testregistry,
+  Data.DB,
+  System.Classes, System.SysUtils, fpcunit, testutils, testregistry,
 
   ZConnection,
   dbebr.factory.interfaces;

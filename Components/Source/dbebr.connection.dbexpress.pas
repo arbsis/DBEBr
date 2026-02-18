@@ -3,9 +3,9 @@ unit dbebr.connection.dbexpress;
 interface
 
 uses
-  DB,
-  SqlExpr,
-  Classes,
+  Data.DB,
+  Data.SqlExpr,
+  System.Classes,
   dbebr.connection.base,
   dbebr.factory.dbexpress,
   dbebr.factory.interfaces;

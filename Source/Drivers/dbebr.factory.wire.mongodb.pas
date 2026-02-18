@@ -27,9 +27,9 @@ unit dbebr.factory.wire.mongodb;
 interface
 
 uses
-  DB,
-  Classes,
-  SysUtils,
+  Data.DB,
+  System.Classes,
+  System.SysUtils,
   dbebr.factory.connection,
   dbebr.factory.interfaces;
 

@@ -27,9 +27,9 @@ unit dbebr.driver.sqlite3;
 interface
 
 uses
-  Classes,
-  DB,
-  Variants,
+  System.Classes,
+  Data.DB,
+  System.Variants,
   SQLiteTable3,
   Datasnap.DBClient,
   // DBEBr
@@ -100,7 +100,7 @@ type
 implementation
 
 uses
-  SysUtils;
+  System.SysUtils;
 
 { TDriverSQLite3 }
 

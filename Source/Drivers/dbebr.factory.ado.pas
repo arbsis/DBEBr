@@ -27,8 +27,8 @@ unit dbebr.factory.ado;
 interface
 
 uses
-  DB,
-  Classes,
+  Data.DB,
+  System.Classes,
   dbebr.factory.connection,
   dbebr.factory.interfaces;
 

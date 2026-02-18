@@ -3,8 +3,8 @@ unit dbebr.connection.zeos;
 interface
 
 uses
-  DB,
-  Classes,
+  Data.DB,
+  System.Classes,
   ZConnection,
   dbebr.connection.base,
   dbebr.factory.zeos,

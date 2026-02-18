@@ -27,8 +27,8 @@ unit dbebr.driver.sqldirect.transaction;
 interface
 
 uses
-  Classes,
-  DB,
+  System.Classes,
+  Data.DB,
   SDEngine,
   // DBEBr
   dbebr.driver.connection,

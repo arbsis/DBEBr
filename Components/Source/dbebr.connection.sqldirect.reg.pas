@@ -3,7 +3,7 @@ unit dbebr.connection.sqldirect.reg;
 interface
 
 uses
-  Classes,
+  System.Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.sqldirect;

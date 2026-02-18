@@ -31,10 +31,10 @@ unit dbebr.driver.zeos;
 interface
 
 uses
-  Classes,
-  SysUtils,
-  DB,
-  Variants,
+  System.Classes,
+  System.SysUtils,
+  Data.DB,
+  System.Variants,
   ZAbstractConnection,
   ZConnection,
   ZAbstractRODataset,

@@ -27,9 +27,9 @@ unit dbebr.driver.ado.transaction;
 interface
 
 uses
-  Classes,
-  DB,
-  ADODB,
+  System.Classes,
+  Data.DB,
+  Data.Win.ADODB,
   /// DBEBr
   dbebr.driver.connection,
   dbebr.factory.interfaces;

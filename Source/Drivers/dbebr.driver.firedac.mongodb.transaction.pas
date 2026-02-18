@@ -27,8 +27,8 @@ unit dbebr.driver.firedac.mongodb.transaction;
 interface
 
 uses
-  DB,
-  Classes,
+  Data.DB,
+  System.Classes,
   FireDAC.Comp.Client,
   // DBEBr
   dbebr.driver.connection,

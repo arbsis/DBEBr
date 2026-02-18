@@ -3,7 +3,7 @@ unit dbebr.connection.fibplus.reg;
 interface
 
 uses
-  Classes,
+  System.Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.fibplus;

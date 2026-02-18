@@ -30,9 +30,9 @@ unit dbebr.connection.base;
 interface
 
 uses
-  DB,
-  SysUtils,
-  Classes,
+  Data.DB,
+  System.SysUtils,
+  System.Classes,
   dbebr.driver.connection,
   dbebr.factory.connection,
   dbebr.factory.interfaces;

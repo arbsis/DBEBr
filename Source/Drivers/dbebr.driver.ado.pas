@@ -27,11 +27,11 @@ unit dbebr.driver.ado;
 interface
 
 uses
-  Classes,
-  SysUtils,
-  DB,
-  Variants,
-  ADODB,
+  System.Classes,
+  System.SysUtils,
+  Data.DB,
+  System.Variants,
+  Data.Win.ADODB,
   /// DBEBr
   dbebr.driver.connection,
   dbebr.factory.interfaces;

@@ -27,8 +27,8 @@ unit dbebr.driver.firedac.transaction;
 interface
 
 uses
-  Classes,
-  DB,
+  System.Classes,
+  Data.DB,
   FireDAC.Comp.Client,
   // DBEBr
   dbebr.driver.connection,

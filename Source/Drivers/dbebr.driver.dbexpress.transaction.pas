@@ -27,10 +27,10 @@ unit dbebr.driver.dbexpress.transaction;
 interface
 
 uses
-  Classes,
-  DB,
-  SqlExpr,
-  DBXCommon,
+  System.Classes,
+  Data.DB,
+  Data.SqlExpr,
+  Data.DBXCommon,
   // DBEBr
   dbebr.driver.connection,
   dbebr.factory.interfaces;

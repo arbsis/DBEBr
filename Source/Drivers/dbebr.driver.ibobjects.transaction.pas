@@ -27,8 +27,8 @@ unit dbebr.driver.ibobjects.transaction;
 interface
 
 uses
-  Classes,
-  DB,
+  System.Classes,
+  Data.DB,
   IBODataset,
   // DBEBr
   dbebr.driver.connection,

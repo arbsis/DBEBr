@@ -27,8 +27,8 @@ unit dbebr.driver.wire.mongodb.transaction;
 interface
 
 uses
-  DB,
-  Classes,
+  Data.DB,
+  System.Classes,
   // DBEBr
   dbebr.driver.connection,
   dbebr.factory.interfaces,

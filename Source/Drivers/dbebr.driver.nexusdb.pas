@@ -27,10 +27,10 @@ unit dbebr.driver.nexusdb;
 interface
 
 uses
-  Classes,
-  DB,
-  Variants,
-  StrUtils,
+  System.Classes,
+  Data.DB,
+  System.Variants,
+  System.StrUtils,
 
   nxdb,
   nxllComponent,

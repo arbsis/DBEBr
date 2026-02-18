@@ -27,10 +27,10 @@ unit dbebr.driver.firedac;
 interface
 
 uses
-  Classes,
-  DB,
-  Variants,
-  StrUtils,
+  System.Classes,
+  Data.DB,
+  System.Variants,
+  System.StrUtils,
   FireDAC.Comp.Client,
   FireDAC.Comp.Script,
   FireDAC.Comp.ScriptCommands,

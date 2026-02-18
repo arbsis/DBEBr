@@ -31,10 +31,10 @@ unit dbebr.factory.interfaces;
 interface
 
 uses
-  DB,
-  Classes,
-  SysUtils,
-  Variants;
+  Data.DB,
+  System.Classes,
+  System.SysUtils,
+  System.Variants;
 
 type
   TMonitorParam = record

@@ -27,8 +27,8 @@ unit dbebr.factory.sqlite3;
 interface
 
 uses
-  DB,
-  Classes,
+  Data.DB,
+  System.Classes,
   dbebr.factory.connection,
   dbebr.factory.interfaces;
 

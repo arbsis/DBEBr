@@ -27,7 +27,7 @@ unit dbebr.driver.absolutedb.transaction;
 interface
 
 uses
-  Classes,
+  System.Classes,
   ABSMain,
   /// DBEBr
   dbebr.driver.connection,

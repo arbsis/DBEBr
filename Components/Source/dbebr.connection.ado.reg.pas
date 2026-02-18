@@ -3,7 +3,7 @@ unit dbebr.connection.ado.reg;
 interface
 
 uses
-  Classes,
+  System.Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.ado;
