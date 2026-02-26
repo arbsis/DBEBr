@@ -107,10 +107,10 @@
         <DCCReference Include="FireDACCommon.dcp"/>
         <DCCReference Include="Source\Core\dbebr.driver.connection.pas"/>
         <DCCReference Include="Source\Core\dbebr.factory.connection.pas"/>
-        <DCCReference Include="Source\Core\dbebr.factory.interfaces.pas"/>
         <DCCReference Include="Source\Drivers\dbebr.driver.firedac.pas"/>
         <DCCReference Include="Source\Drivers\dbebr.driver.firedac.transaction.pas"/>
         <DCCReference Include="Source\Drivers\dbebr.factory.firedac.pas"/>
+        <DCCReference Include="Source\Core\dbebr.factory.interfaces.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
