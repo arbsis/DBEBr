@@ -1,0 +1,46 @@
+﻿package DBEBr;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS ON}
+{$RANGECHECKS ON}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DEFINE DEBUG}
+{$ENDIF IMPLICITBUILDING}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  dbrtl,
+  FireDAC,
+  FireDACCommonDriver,
+  FireDACCommon;
+
+contains
+  dbebr.driver.connection in 'Source\Core\dbebr.driver.connection.pas',
+  dbebr.factory.connection in 'Source\Core\dbebr.factory.connection.pas',
+  dbebr.factory.interfaces in 'Source\Core\dbebr.factory.interfaces.pas',
+  dbebr.driver.firedac in 'Source\Drivers\dbebr.driver.firedac.pas',
+  dbebr.driver.firedac.transaction in 'Source\Drivers\dbebr.driver.firedac.transaction.pas',
+  dbebr.factory.firedac in 'Source\Drivers\dbebr.factory.firedac.pas';
+
+end.

@@ -30,7 +30,7 @@ uses
   Data.DB,
   System.Classes,
   System.SysUtils,
-  ABSMain,
+  //ABSMain,
   System.Variants,
   /// DBEBr
   dbebr.driver.connection,

@@ -321,10 +321,10 @@ end;
 function TDriverResultSetFireDAC.GetFieldValue(const AFieldIndex: Integer): Variant;
 begin
   if AFieldIndex > FDataSet.FieldCount -1  then
-    Exit(Variants.Null);
+    Exit(System.Variants.Null);
 
   if FDataSet.Fields[AFieldIndex].IsNull then
-    Result := Variants.Null
+    Result := System.Variants.Null
   else
     Result := FDataSet.Fields[AFieldIndex].Value;
 end;
