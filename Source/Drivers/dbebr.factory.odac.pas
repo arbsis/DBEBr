@@ -3,8 +3,8 @@ unit dbebr.factory.odac;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   dbebr.factory.connection,
   dbebr.factory.interfaces;
 

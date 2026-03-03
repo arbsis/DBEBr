@@ -31,11 +31,11 @@ unit dbebr.driver.connection;
 interface
 
 uses
-  Data.DB,
-  System.Math,
-  System.Classes,
-  System.SysUtils,
-  System.Variants,
+  DB,
+  Math,
+  Classes,
+  SysUtils,
+  Variants,
   // DBEBr
   dbebr.factory.interfaces;
 

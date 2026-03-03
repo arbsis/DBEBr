@@ -3,8 +3,8 @@ unit dbebr.connection.fibplus;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   FIBQuery,
   FIBDataSet,
   FIBDatabase,

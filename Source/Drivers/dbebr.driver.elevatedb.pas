@@ -27,10 +27,10 @@ unit dbebr.driver.elevatedb;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  System.Variants,
-  System.StrUtils,
+  Classes,
+  DB,
+  Variants,
+  StrUtils,
 
   edbcomps,
   // DBEBr

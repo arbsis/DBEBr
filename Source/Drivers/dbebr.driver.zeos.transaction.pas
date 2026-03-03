@@ -27,8 +27,8 @@ unit dbebr.driver.zeos.transaction;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
+  Classes,
+  DB,
   ZAbstractConnection,
   ZConnection,
   // DBEBr

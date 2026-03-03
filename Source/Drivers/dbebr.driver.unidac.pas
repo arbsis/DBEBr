@@ -30,10 +30,10 @@ unit dbebr.driver.unidac;
 interface
 
 uses
-  System.Classes,
-  System.SysUtils,
-  System.StrUtils,
-  System.Variants,
+  Classes,
+  SysUtils,
+  StrUtils,
+  Variants,
   Data.DB,
   // UniDAC
   Uni,

@@ -3,8 +3,8 @@ unit dbebr.connection.ibobjects;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   IB_Components,
   IBODataset,
   IB_Access,

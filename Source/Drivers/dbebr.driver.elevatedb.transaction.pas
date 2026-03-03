@@ -27,8 +27,8 @@ unit dbebr.driver.elevatedb.transaction;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
+  Classes,
+  DB,
   edbcomps,
   // DBEBr
   dbebr.driver.connection,

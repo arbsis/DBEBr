@@ -3,9 +3,9 @@ unit dbebr.connection.ado;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
-  Data.Win.ADODB,
+  DB,
+  Classes,
+  ADODB,
   dbebr.connection.base,
   dbebr.factory.ado,
   dbebr.factory.interfaces;

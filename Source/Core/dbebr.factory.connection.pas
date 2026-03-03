@@ -27,9 +27,9 @@ unit dbebr.factory.connection;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
-  System.SysUtils,
+  DB,
+  Classes,
+  SysUtils,
   dbebr.factory.interfaces,
   dbebr.driver.connection;
 

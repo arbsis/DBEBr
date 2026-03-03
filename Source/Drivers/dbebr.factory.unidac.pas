@@ -30,8 +30,8 @@ unit dbebr.factory.unidac;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   // DBEBr
   dbebr.factory.connection,
   dbebr.factory.interfaces;

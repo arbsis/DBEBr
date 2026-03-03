@@ -7,7 +7,7 @@ uses
   System.SysUtils,
   Data.DB,
 
-  IBX.IBDatabase,
+  IBDatabase,
 
   ormbr.factory.interfaces;
 

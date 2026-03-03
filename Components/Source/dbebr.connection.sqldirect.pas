@@ -3,8 +3,8 @@ unit dbebr.connection.sqldirect;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   SDEngine,
   dbebr.connection.base,
   dbebr.factory.sqldirect,

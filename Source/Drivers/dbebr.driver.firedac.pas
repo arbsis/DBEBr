@@ -27,10 +27,10 @@ unit dbebr.driver.firedac;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  System.Variants,
-  System.StrUtils,
+  Classes,
+  DB,
+  Variants,
+  StrUtils,
   FireDAC.Comp.Client,
   FireDAC.Comp.Script,
   FireDAC.Comp.ScriptCommands,
@@ -321,10 +321,10 @@ end;
 function TDriverResultSetFireDAC.GetFieldValue(const AFieldIndex: Integer): Variant;
 begin
   if AFieldIndex > FDataSet.FieldCount -1  then
-    Exit(System.Variants.Null);
+    Exit(Variants.Null);
 
   if FDataSet.Fields[AFieldIndex].IsNull then
-    Result := System.Variants.Null
+    Result := Variants.Null
   else
     Result := FDataSet.Fields[AFieldIndex].Value;
 end;

@@ -27,8 +27,8 @@ unit dbebr.driver.fibplus.transaction;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
+  Classes,
+  DB,
 
   FIBDatabase,
   // DBEBr

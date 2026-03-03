@@ -3,7 +3,7 @@ unit dbebr.connection.unidac.reg;
 interface
 
 uses
-  System.Classes,
+  Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.unidac;

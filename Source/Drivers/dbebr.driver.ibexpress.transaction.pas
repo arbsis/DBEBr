@@ -27,9 +27,9 @@ unit dbebr.driver.ibexpress.transaction;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  IBX.IBDatabase,
+  Classes,
+  DB,
+  IBDatabase,
   // DBEBr
   dbebr.driver.connection,
   dbebr.factory.interfaces;

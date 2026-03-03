@@ -3,8 +3,8 @@ unit dbebr.connection.mongowire;
 interface
 
 uses
-  System.SysUtils,
-  System.Classes,
+  SysUtils,
+  Classes,
   mongoWire,
   jsonDoc,
   mongoAuth3;

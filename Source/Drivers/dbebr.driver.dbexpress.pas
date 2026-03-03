@@ -27,11 +27,11 @@ unit dbebr.driver.dbexpress;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  Data.SqlExpr,
-  System.Variants,
-  System.SysUtils,
+  Classes,
+  DB,
+  SqlExpr,
+  Variants,
+  SysUtils,
   // DBEBr
   dbebr.driver.connection,
   dbebr.factory.interfaces;

@@ -3,8 +3,8 @@ unit dbebr.connection.firedac;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   FireDAC.Comp.Client,
   dbebr.connection.base,
   dbebr.factory.firedac,

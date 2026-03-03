@@ -3,7 +3,7 @@ unit dbebr.connection.firedac.reg;
 interface
 
 uses
-  System.Classes,
+  Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.firedac;

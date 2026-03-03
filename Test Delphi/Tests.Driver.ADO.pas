@@ -7,8 +7,8 @@ uses
   System.SysUtils,
   Data.DB,
 
-  Data.Win.ADODB,
-  Winapi.ActiveX,
+  ADODB,
+  ActiveX,
 
   dbebr.factory.interfaces;
 

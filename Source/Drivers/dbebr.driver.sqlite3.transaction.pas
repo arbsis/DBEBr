@@ -27,8 +27,8 @@ unit dbebr.driver.sqlite3.transaction;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   SQLiteTable3,
   // DBEBr
   dbebr.driver.connection,

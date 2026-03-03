@@ -27,8 +27,8 @@ unit dbebr.factory.ibexpress;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
+  DB,
+  Classes,
   dbebr.factory.connection,
   dbebr.factory.interfaces;
 

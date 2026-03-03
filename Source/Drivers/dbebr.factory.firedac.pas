@@ -27,9 +27,9 @@ unit dbebr.factory.firedac;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
-  System.SysUtils,
+  DB,
+  Classes,
+  SysUtils,
   dbebr.factory.connection,
   dbebr.factory.interfaces;
 

@@ -27,8 +27,8 @@ unit dbebr.driver.nexusdb.transaction;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
+  Classes,
+  DB,
   nxdb,
   // DBEBr
   dbebr.driver.connection,

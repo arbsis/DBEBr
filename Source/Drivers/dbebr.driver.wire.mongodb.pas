@@ -27,13 +27,13 @@ unit dbebr.driver.wire.mongodb;
 interface
 
 uses
-  Data.DB,
-  System.Classes,
-  System.SysUtils,
-  Datasnap.DBClient,
-  System.Variants,
-  System.StrUtils,
-  System.Math,
+  DB,
+  Classes,
+  SysUtils,
+  DBClient,
+  Variants,
+  StrUtils,
+  Math,
   /// MongoDB
   mongoWire,
   bsonTools,

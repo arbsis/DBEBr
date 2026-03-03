@@ -27,10 +27,10 @@ unit dbebr.driver.sqldirect;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  System.Variants,
-  System.StrUtils,
+  Classes,
+  DB,
+  Variants,
+  StrUtils,
   /// SQLDirect
   SDEngine,
   // DBEBr

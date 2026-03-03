@@ -27,15 +27,15 @@ unit dbebr.driver.ibexpress;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  System.Variants,
-  System.SysUtils,
+  Classes,
+  DB,
+  Variants,
+  SysUtils,
 
-  IBX.IBScript,
-  IBX.IBCustomDataSet,
-  IBX.IBQuery,
-  IBX.IBDatabase,
+  IBScript,
+  IBCustomDataSet,
+  IBQuery,
+  IBDatabase,
 
   // DBEBr
   dbebr.driver.connection,

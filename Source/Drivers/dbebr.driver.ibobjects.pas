@@ -27,10 +27,10 @@ unit dbebr.driver.ibobjects;
 interface
 
 uses
-  System.Classes,
-  Data.DB,
-  System.Variants,
-  System.SysUtils,
+  Classes,
+  DB,
+  Variants,
+  SysUtils,
 
   IB_Components,
   IBODataset,

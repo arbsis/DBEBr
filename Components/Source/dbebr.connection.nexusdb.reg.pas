@@ -3,7 +3,7 @@ unit dbebr.connection.nexusdb.reg;
 interface
 
 uses
-  System.Classes,
+  Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.nexusdb;

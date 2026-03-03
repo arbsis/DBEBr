@@ -3,7 +3,7 @@ unit dbebr.connection.dbexpress.reg;
 interface
 
 uses
-  System.Classes,
+  Classes,
   DesignIntf,
   DesignEditors,
   dbebr.connection.dbexpress;

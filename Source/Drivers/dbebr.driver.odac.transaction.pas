@@ -3,7 +3,7 @@ unit dbebr.driver.odac.transaction;
 interface
 
 uses
-  Data.DB,
+  DB,
   System.Classes,
   System.Variants,
   System.SysUtils,
